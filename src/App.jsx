@@ -1,4 +1,5 @@
 import Docs from "./components/Docs.jsx";
+import Feedback from "./components/Feedback.jsx";
 import Guide from "./components/Guide.jsx";
 import Sidebar from "./components/Sidebar.jsx";
 
@@ -8,6 +9,7 @@ function App() {
       <Sidebar author="Raven A. Tongol" />
       <Docs />
       <Guide />
+      <Feedback />
     </div>
   );
 }
